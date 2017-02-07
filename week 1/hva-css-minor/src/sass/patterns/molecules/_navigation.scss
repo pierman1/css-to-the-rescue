@@ -1,0 +1,25 @@
+nav {
+
+ ul {
+   display: flex;
+   list-style: none;
+   li {
+     width: 10%;
+
+     a {
+        color: $color-lightest;
+        text-decoration: none;
+        text-transform: uppercase;
+     }
+
+     ul {
+       display: flex;
+       flex-direction: column;
+     }
+   }
+
+   ul:target {
+     display: block;
+   }
+ }
+}

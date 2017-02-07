@@ -1,0 +1,7 @@
+form[action^="/"] {
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+  padding: 1rem;
+}
