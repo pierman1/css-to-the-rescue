@@ -1,0 +1,22 @@
+.main-container {
+
+  @media only screen and (min-width : 620px) {
+    display: flex;
+  }
+}
+
+.container-left {
+  width: 100%;
+
+  @media only screen and (min-width : 620px) {
+    width: 20vw;
+  }
+}
+
+.container-right {
+  width: 100%;
+
+  @media only screen and (min-width : 620px) {
+    width: 80vw;
+  }
+}

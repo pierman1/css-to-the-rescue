@@ -1,0 +1,22 @@
+form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: .875rem;
+    margin-bottom: .5rem;
+  }
+
+  input {
+    border-radius: 2px;
+    border: none;
+    padding: .5rem;
+    margin-bottom: .5rem;
+  }
+
+  textarea {
+    border:none;
+    min-height: 8rem;
+    border-radius: 2px;
+  }
+}

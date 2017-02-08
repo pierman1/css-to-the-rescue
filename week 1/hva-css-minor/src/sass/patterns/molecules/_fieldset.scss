@@ -1,0 +1,25 @@
+.fieldset {
+  display: flex;
+  flex-direction: row;
+  background-color: $bg-color-secondary;
+  padding: $padding-primary;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  legend {
+    flex: 100%;
+  }
+
+  label {
+    width: 10%;
+  }
+
+  svg {
+    width: 100%;
+    display: block;
+  }
+
+  input {
+    display: none;
+  }
+}

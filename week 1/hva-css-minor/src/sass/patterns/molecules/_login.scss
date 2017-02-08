@@ -1,7 +1,21 @@
-form[action^="/"] {
-  display: flex;
-  flex-direction: column;
+.login-form {
+  background-color: $bg-color-secondary;
+  padding: $padding-primary;
 
-  width: 20%;
-  padding: 1rem;
+  border-radius: 2px;
+
+  a {
+    font-size: .8rem;
+    text-align: center;
+  }
+
+  span {
+    display: flex;
+    line-height: 1.45;
+    justify-content: space-between;
+  }
+
+  span:last-of-type {
+    flex-direction: column-reverse;
+  }
 }

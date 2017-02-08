@@ -1,24 +1,39 @@
-nav {
+.primary-nav {
 
  ul {
    display: flex;
+   flex-direction: column;
    list-style: none;
+   font-weight: 600;
+
    li {
-     width: 10%;
+     transition: $ease-fast;
+     padding: .5rem 1rem;
 
      a {
-        color: $color-lightest;
+        color: $color-darkest;
         text-decoration: none;
-        text-transform: uppercase;
+        transition: $ease-fast;
+
+       &:target {
+         border: 2px solid #D4D4D4;
+         background-color: #e5eecc;
+       }
      }
 
-     ul {
-       display: flex;
+     div {
        flex-direction: column;
+       list-style: none;
+       font-weight: 600;
+       opacity: .5;
      }
    }
 
-   ul:target {
+   ul {
+     display: none;
+   }
+
+   ul#products:target {
      display: block;
    }
  }

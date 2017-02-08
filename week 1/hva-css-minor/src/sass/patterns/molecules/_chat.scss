@@ -1,0 +1,44 @@
+.chat {
+  background-color: $bg-color-secondary;
+  padding: $padding-primary;
+
+  ol {
+    li {
+      p {
+        background-color: $color-lightest;
+        border-radius: 5px;
+        padding: $padding-primary;
+      }
+
+      footer {
+        padding: .5rem;
+
+        p {
+          background-color: transparent;
+          padding: 0;
+          font-size: 0.625rem;
+        }
+
+        [data-status="READ"] {
+          color: green;
+        }
+
+        [data-status="DELIVERED"] {
+          color: orange;
+        }
+      }
+
+      &:nth-child(odd) {
+        text-align: right;
+      }
+    }
+  }
+
+  .btn {
+    width: 40%;
+  }
+
+  textarea {
+    min-height: 8rem;
+  }
+}

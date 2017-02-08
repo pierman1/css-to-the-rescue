@@ -1,0 +1,11 @@
+header {
+  height: 100%;
+  color: $color-darkest;
+  padding: $padding-primary;
+  box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.3);
+  z-index: 1;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
