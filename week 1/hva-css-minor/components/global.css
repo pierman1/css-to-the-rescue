@@ -47,6 +47,10 @@ body > h1, h2 {
     margin: 0;
 }
 
+body > h2 {
+    background-color: red;
+}
+
 p {
     line-height: 1.5;
     font-size: .875rem;
@@ -75,7 +79,7 @@ form {
 }
 
 label {
-    font-size: 0.575rem;
+    font-size: 0.875rem;
     margin-bottom: .5rem;
 }
 
