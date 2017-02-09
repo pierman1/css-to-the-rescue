@@ -1,0 +1,21 @@
+[role="rating"] {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+[role="rating"] legend {
+    flex: 100%;
+}
+[role="rating"] label {
+    width: 10%;
+}
+[role="rating"] svg {
+    width: 100%;
+    display: block;
+}
+[role="rating"] input {
+    display: none;
+}

@@ -1,0 +1,20 @@
+[role="login"] {
+    background-color: #f4f4f4;
+    padding: 2rem 1rem;
+    border-radius: 2px;
+}
+
+[role="login"] a {
+    font-size: .8rem;
+    text-align: center;
+}
+
+[role="login"] span {
+    display: flex;
+    line-height: 1.45;
+    justify-content: space-between;
+}
+
+[role="login"] span:last-of-type {
+    flex-direction: column-reverse;
+}

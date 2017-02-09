@@ -1,0 +1,26 @@
+/* Wrapper */
+[role="wrapper"] section {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 30rem) {
+
+    [section="component-navigation"],
+    [section="component-step-indicator"],
+    [section="component-login"],
+    [section="component-rating"],
+    [section="component-article"],
+    [section="component-chat"] {
+        width: 90%;
+        max-width: 22rem;
+        margin: 0 auto 4rem auto;
+    }
+
+    [section="component-navigation"] {
+        max-width: 80rem;
+    }
+
+    [section="component-article"] {
+        max-width: 50%;
+    }
+}

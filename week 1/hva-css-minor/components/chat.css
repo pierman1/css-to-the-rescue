@@ -1,0 +1,32 @@
+[role="chat"] {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+[role="chat"] ol li p {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+}
+[role="chat"] ol li footer {
+    padding: .5rem;
+}
+[role="chat"] ol li footer p {
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.625rem;
+}
+[role="chat"] ol li footer [data-status="READ"]{
+    color: green;
+}
+[role="chat"] ol li footer [data-status="DELIVERED"]{
+    color: orange;
+}
+[role="chat"] ol li:nth-child(odd) {
+    text-align: right;
+}
+[role="chat"] .btn {
+    width: 40%;
+}
+[role="chat"] textarea {
+    min-height: 8rem;
+}

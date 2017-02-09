@@ -87,7 +87,8 @@ legend {
   border: none;
   background-color: #4ecdc4;
   margin: .5rem 0;
-  padding: 0.875rem 1rem; }
+  padding: 0.875rem 1rem;
+  cursor: pointer; }
 
 /* Molecules */
 form {
@@ -106,30 +107,30 @@ form {
     min-height: 8rem;
     border-radius: 2px; }
 
-.primary-nav ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  font-weight: 600; }
-  .primary-nav ul li {
-    transition: 0.3s;
-    padding: .5rem 1rem; }
-    .primary-nav ul li a {
-      color: #000;
-      text-decoration: none;
-      transition: 0.3s; }
-      .primary-nav ul li a:target {
-        border: 2px solid #D4D4D4;
-        background-color: #e5eecc; }
-    .primary-nav ul li div {
-      flex-direction: column;
-      list-style: none;
-      font-weight: 600;
-      opacity: .5; }
-  .primary-nav ul ul {
-    display: none; }
-  .primary-nav ul ul#products:target {
-    display: block; }
+/*.primary-nav ul {*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*list-style: none;*/
+  /*font-weight: 600; }*/
+  /*.primary-nav ul li {*/
+    /*transition: 0.3s;*/
+    /*padding: .5rem 1rem; }*/
+    /*.primary-nav ul li a {*/
+      /*color: #000;*/
+      /*text-decoration: none;*/
+      /*transition: 0.3s; }*/
+      /*.primary-nav ul li a:target {*/
+        /*border: 2px solid #D4D4D4;*/
+        /*background-color: #e5eecc; }*/
+    /*.primary-nav ul li div {*/
+      /*flex-direction: column;*/
+      /*list-style: none;*/
+      /*font-weight: 600;*/
+      /*opacity: .5; }*/
+  /*.primary-nav ul ul {*/
+    /*display: none; }*/
+  /*.primary-nav ul ul#products:target {*/
+    /*display: block; }*/
 
 .login-form {
   background-color: #DCE5F6;
@@ -145,52 +146,52 @@ form {
   .login-form span:last-of-type {
     flex-direction: column-reverse; }
 
-.step-indicator {
-  padding: 1rem;
-  background-color: #DCE5F6;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  transistion: 0.3s;
-  margin-bottom: 1rem; }
-  .step-indicator h1 {
-    flex: 100%;
-    color: #000;
-    margin-bottom: 1rem; }
-  .step-indicator progress[value] {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 100%;
-    height: 20px;
-    margin-bottom: 1rem; }
-  .step-indicator progress[value]::-webkit-progress-value {
-    background: #4ecdc4;
-    background-size: 35px 20px, 100% 100%, 100% 100%; }
-  .step-indicator ol {
-    display: flex;
-    justify-content: space-around;
-    color: #000; }
-    .step-indicator ol li {
-      font-weight: 800;
-      font-size: .8rem;
-      list-style-type: decimal; }
+/*.step-indicator {*/
+  /*padding: 1rem;*/
+  /*background-color: #DCE5F6;*/
+  /*color: #fff;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*transistion: 0.3s;*/
+  /*margin-bottom: 1rem; }*/
+  /*.step-indicator h1 {*/
+    /*flex: 100%;*/
+    /*color: #000;*/
+    /*margin-bottom: 1rem; }*/
+  /*.step-indicator progress[value] {*/
+    /*-webkit-appearance: none;*/
+    /*appearance: none;*/
+    /*width: 100%;*/
+    /*height: 20px;*/
+    /*margin-bottom: 1rem; }*/
+  /*.step-indicator progress[value]::-webkit-progress-value {*/
+    /*background: #4ecdc4;*/
+    /*background-size: 35px 20px, 100% 100%, 100% 100%; }*/
+  /*.step-indicator ol {*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*color: #000; }*/
+    /*.step-indicator ol li {*/
+      /*font-weight: 800;*/
+      /*font-size: .8rem;*/
+      /*list-style-type: decimal; }*/
 
-.fieldset {
-  display: flex;
-  flex-direction: row;
-  background-color: #DCE5F6;
-  padding: 1rem;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  .fieldset legend {
-    flex: 100%; }
-  .fieldset label {
-    width: 10%; }
-  .fieldset svg {
-    width: 100%;
-    display: block; }
-  .fieldset input {
-    display: none; }
+/*.fieldset {*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*background-color: #DCE5F6;*/
+  /*padding: 1rem;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-around; }*/
+  /*.fieldset legend {*/
+    /*flex: 100%; }*/
+  /*.fieldset label {*/
+    /*width: 10%; }*/
+  /*.fieldset svg {*/
+    /*width: 100%;*/
+    /*display: block; }*/
+  /*.fieldset input {*/
+    /*display: none; }*/
 
 article {
   padding: 1rem; }
