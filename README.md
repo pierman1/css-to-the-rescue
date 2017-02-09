@@ -1,5 +1,7 @@
 # CSS-to-the-rescue
 
+Example makes use of Emoji from: http://emojione.com
+
 >Ga naar Week1/hva-css-minor
 
 ##Github pages
