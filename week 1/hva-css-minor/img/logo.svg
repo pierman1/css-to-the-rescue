@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="85.3553391%" y1="14.6446609%" x2="15.2985543%" y2="84.7014457%" id="linearGradient-1">
+            <stop stop-color="#1CD8D2" offset="0%"></stop>
+            <stop stop-color="#93EDC7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-670.000000, -361.000000)">
+            <g id="Group" transform="translate(526.000000, 361.000000)">
+                <g id="Group-2" transform="translate(144.000000, 0.000000)">
+                    <g id="Group-4">
+                        <path d="M62.1000472,7.10542736e-15 L102,7.10542736e-15 L102,39.8999528 C97.9692151,19.8360419 82.1639581,4.0307849 62.1000472,-2.77555756e-15 Z" id="Combined-Shape" fill="#1DD8D2"></path>
+                        <path d="M1.95399252e-14,62 L39.8999528,62 L39.8999528,101.899953 C35.8691679,81.8360419 20.0639109,66.0307849 -3.10862447e-14,62 Z" id="Combined-Shape" fill="#93EDC7" transform="translate(19.949976, 81.949976) scale(-1, -1) translate(-19.949976, -81.949976) "></path>
+                        <path d="M51,97 C25.5949015,97 5,76.4050985 5,51 C5,25.5949015 25.5949015,5 51,5 C76.4050985,5 97,25.5949015 97,51 C97,76.4050985 76.4050985,97 51,97 Z M51,78.6 C66.2430591,78.6 78.6,66.2430591 78.6,51 C78.6,35.7569409 66.2430591,23.4 51,23.4 C35.7569409,23.4 23.4,35.7569409 23.4,51 C23.4,66.2430591 35.7569409,78.6 51,78.6 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
