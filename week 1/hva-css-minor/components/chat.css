@@ -16,10 +16,10 @@
     font-size: 0.625rem;
 }
 [role="chat"] ol li footer [data-status="READ"]{
-    color: green;
+    color: #4aff49;
 }
 [role="chat"] ol li footer [data-status="DELIVERED"]{
-    color: orange;
+    color: #ffbC2f;
 }
 [role="chat"] ol li:nth-child(odd) {
     text-align: right;

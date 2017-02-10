@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cd77ed-5c21-49e5-a0d4-acf3372b4e7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/article.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/article.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/global.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/login.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/navigation.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/navigation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/rating.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week 1/hva-css-minor/components/step-indicator.css" afterPath="$PROJECT_DIR$/week 1/hva-css-minor/components/step-indicator.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +21,8 @@
       <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="211">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -72,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navigation.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/navigation.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
@@ -82,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chat.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="315">
+              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -148,6 +144,7 @@
       <find>step</find>
       <find>chat</find>
       <find>hover</find>
+      <find>orange</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,13 +197,13 @@
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/styleguide.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/article.css" />
-        <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css" />
-        <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/global.css" />
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/login.css" />
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/step-indicator.css" />
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/rating.css" />
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/wrapper.css" />
         <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/navigation.css" />
+        <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/global.css" />
+        <option value="$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css" />
       </list>
     </option>
   </component>
@@ -398,12 +395,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486456215602</updated>
-      <workItem from="1486456217695" duration="62304000" />
+      <workItem from="1486456217695" duration="62895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62304000" />
+    <option name="totallyTimeSpent" value="62895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="558" y="24" width="870" height="827" extended-state="0" />
@@ -940,30 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/article.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1000,6 +973,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week 1/hva-css-minor/components/chat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
