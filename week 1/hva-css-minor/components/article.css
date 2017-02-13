@@ -1,35 +1,39 @@
-[role="article"] {
-    border-bottom: 2px solid #ccc;
-}
-
-[role="article"] {
+article {
     padding: 1rem;
-    min-height: 12rem;
+}
+
+article figure {
+    margin: 0;
+    width: fit-content;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+article figure img {
+    max-height: 100vh;
+    height: auto;
+    margin-right: 2vw;
+    margin-bottom: 1em;
+}
+
+article figcaption {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+article figcaption footer {
+    font-size: .8em;
+    color: grey;
+    margin-bottom: 2em;
+}
+
+article figcaption footer a,
+article figcaption footer a:visited {
+    color: grey;
+}
+
+article figcaption footer time {
     overflow: hidden;
-}
-
-[role="article"] img {
-    width: 100%;
-    -webkit-transform: translateY(-40%);
-    transform: translateY(-40%);
-}
-
-[role="article"] > img {
-    width: 30%;
-    float: left;
-    padding: 0 1rem 1rem 0;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-}
-
-[role="article"] figure {
-    height: 10rem;
-    margin-bottom: 1rem;
-    overflow: hidden;
-}
-
-[role="article"] footer {
-    font-size: .75rem;
-    text-align: right;
-    margin-top: 1em;
 }
