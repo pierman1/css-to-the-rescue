@@ -1,41 +1,73 @@
-.step-indicator {
+[role="status"] {
   padding: $padding-primary;
-  background-color: $bg-color-secondary;
+  background-color: #FF7A5A;
   color: $color-lightest;
   display: flex;
   flex-direction: column;
   transistion: $ease-fast;
-  margin-bottom: 1rem;
+  flex: 0 1 100%;
+  border-bottom: .1rem solid #e0e0e0;
 
   h1 {
     flex: 100%;
-    color: $color-darkest;
     margin-bottom: 1rem;
+    color: black;
+    text-align: center;
   }
 
-  progress[value] {
+  progress {
     -webkit-appearance: none;
     appearance: none;
-
+    background-color: #F9FAFC;
     width: 100%;
-    height: 20px;
+    height: .5rem;
     margin-bottom: 1rem;
+    border-radius: .3rem;
   }
 
-  progress[value]::-webkit-progress-value {
-    background: #4ecdc4;
-    background-size: 35px 20px, 100% 100%, 100% 100%;
+  progress::-webkit-progress-value {
+    border-radius: .1rem 0 0 .1rem;
+    background-color: #eee;
+    //background-image: -webkit-linear-gradient(135deg,
+    //        transparent,
+    //        transparent 33%,
+    //        rgba(0, 0, 0, .1) 33%,
+    //        rgba(0, 0, 0, .1) 66%,
+    //        transparent 66%),
+    //-webkit-linear-gradient(top,
+    //                rgba(255, 255, 255, .25),
+    //                rgba(0, 0, 0, .2)),
+    //-webkit-linear-gradient(left, #09c, #f44);
   }
-  
+
   ol {
+    margin-top: 1rem;
     display: flex;
-    justify-content: space-around;
-    color: $color-darkest;
+    justify-content: space-between;
 
     li {
       font-weight: 800;
       font-size: .8rem;
       list-style-type: decimal;
+
+      a {
+        color: #fff;
+      }
     }
   }
+
+  ol, progress {
+    width: 90%;
+    margin: 0 auto 1rem auto;
+  }
+
+  a[aria-label~="current"], {
+    color: #000;
+    font-weight: 800;
+  }
+
+  @media only screen and (min-width: 70rem) {
+    margin-bottom: 1rem;
+  }
 }
+

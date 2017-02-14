@@ -1,6 +1,6 @@
 .main-container {
 
-  @media only screen and (min-width : 620px) {
+  @media only screen and (min-width : 38rem) {
     display: flex;
   }
 }
@@ -8,15 +8,25 @@
 .container-left {
   width: 100%;
 
-  @media only screen and (min-width : 620px) {
+  @media only screen and (min-width : 38rem) {
     width: 20vw;
   }
 }
 
 .container-right {
   width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 1rem;
+  align-items: flex-start;
 
-  @media only screen and (min-width : 620px) {
+  @media only screen and (min-width : 38rem) {
     width: 80vw;
+    display: flex;
   }
 }
+
+//.container-right > * {
+//  margin-right: 1rem;
+//}

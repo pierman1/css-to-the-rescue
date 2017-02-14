@@ -1,9 +1,13 @@
-article {
+.main-article {
   padding: $padding-primary;
+  background-color: #fff;
+  flex: 100%;
 
   img {
-    width: 100%;
     margin-bottom: 1rem;
+    height: 100vh;
+    width: auto;
+    max-width: 100%;
   }
 
   footer {
@@ -12,3 +16,7 @@ article {
     margin-top: 1em;
   }
 }
+
+//article:first-of-type {
+//  flex: 0 3 60%;
+//}

@@ -5,6 +5,8 @@ form {
   label {
     font-size: .875rem;
     margin-bottom: .5rem;
+    font-weight: 800;
+    margin-top: 0.875rem;
   }
 
   input {
@@ -12,11 +14,37 @@ form {
     border: none;
     padding: .5rem;
     margin-bottom: .5rem;
+    font-size: 1rem;
   }
 
   textarea {
     border:none;
-    min-height: 8rem;
     border-radius: 2px;
+  }
+
+  input[type="checkbox"] + label::before {
+    content: '\a0';
+    display: inline-block;
+    vertical-align: .2em;
+    width: 1em;
+    height: 1em;
+    margin-right: .5em;
+    background-color: silver;
+    text-indent: .15em;
+    line-height: .5;
+  }
+
+  input[type="checkbox"]:checked + label::before {
+    content: '\2713';
+    background-color: yellowgreen;
+  }
+
+  input[type="checkbox"]:focus + label::before {
+    outline: #FF7A5A solid 3px;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0,0,0,0);
   }
 }

@@ -50,3 +50,11 @@ table {
 a {
   color: $color-darkest;
 }
+
+button {
+  transition: .3s;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
