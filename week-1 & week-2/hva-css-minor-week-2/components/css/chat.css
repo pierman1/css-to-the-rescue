@@ -1,0 +1,124 @@
+.chat {
+    background-color: #FF7A5A;
+    border-radius: .1rem;
+    border-bottom: .1rem solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
+    width: 80%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 2rem;
+    z-index: 99;
+}
+
+.chat ol {
+    display: none;
+    max-height: 12rem;
+    overflow-x: scroll;
+}
+
+.chat ol li p {
+    background-color: #e9ebee;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.chat ol li footer {
+    padding: .5rem;
+}
+
+.chat ol li footer p {
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.625rem;
+}
+
+.chat ol li footer [data-status="READ"] {
+    color: green;
+}
+
+.chat ol li footer [data-status="DELIVERED"] {
+    color: orange;
+}
+
+.chat ol li:nth-child(odd) {
+    text-align: right;
+}
+
+.chat form {
+    display: none;
+}
+
+.chat form label {
+    position: absolute;
+}
+
+.chat form textarea:focus + label {
+    display: none;
+    padding: .5rem;
+}
+
+.chat textarea {
+    border-top: 1px solid #cecece;
+    font-size: 1rem;
+}
+
+.chat textarea:focus {
+    outline: #FF7A5A solid 3px;
+}
+
+.chat button {
+    width: 100%;
+}
+
+.chat input[type=checkbox] {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.chat > label {
+    padding: .5rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.chat > label:after {
+    content: '↑';
+    background-image: url("../images/cross.svg");
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    transition: .3s;
+}
+
+.chat :checked ~ label:after {
+    content: '✘';
+}
+
+.chat :checked ~ ol {
+    display: block;
+    background-color: #fff;
+    padding: .5rem;
+    margin: 0px;
+}
+
+.chat :checked ~ form {
+    display: flex;
+}
+
+.chat :focus {
+    outline-color: #FF7A5A;
+}
+
+@media only screen and (min-width: 50rem) {
+    .chat {
+        width: 20rem;
+    }
+}

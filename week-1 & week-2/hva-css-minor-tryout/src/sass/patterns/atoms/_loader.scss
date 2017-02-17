@@ -1,0 +1,15 @@
+@keyframes loader {
+  to { background-position: -50em 0; }
+}
+
+.loader {
+  //display: none;
+  font-size: 16px;
+  width: 6.25em;
+  height: 6.25em;
+  text-indent: 999px; overflow: hidden; /* Hide text */
+  background: url(http://dabblet.com/img/loader.png) 0 0;
+  animation: loader .5s infinite steps(8);
+
+  transform: scale(.2) ;
+}
