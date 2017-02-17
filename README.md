@@ -2,16 +2,14 @@
 
 Examples make use of Emoji from: http://emojione.com
 
->Ga naar Week1/hva-css-minor
-
 ##Github pages
 
 
 ####Week 1
 
-Resultaat:
+Resultaat: https://goo.gl/2tcais
 
 ####Week 2
 
-Resultaat: 
+Resultaat: https://goo.gl/N8Tuy1
 
