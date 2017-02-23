@@ -10,7 +10,6 @@ form {
   }
 
   input {
-    border-radius: 2px;
     border: none;
     padding: .5rem;
     margin-bottom: .5rem;
@@ -29,18 +28,14 @@ form {
     width: 1em;
     height: 1em;
     margin-right: .5em;
-    background-color: silver;
+    background-color: #fff;
     text-indent: .15em;
     line-height: .5;
   }
 
   input[type="checkbox"]:checked + label::before {
     content: '\2713';
-    background-color: yellowgreen;
-  }
-
-  input[type="checkbox"]:focus + label::before {
-    outline: #FF7A5A solid 3px;
+    background-color: #ccc;
   }
 
   input[type="checkbox"] {

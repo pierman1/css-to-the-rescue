@@ -103,7 +103,6 @@ form {
     font-weight: 800;
     margin-top: 0.875rem; }
   form input {
-    border-radius: 2px;
     border: none;
     padding: .5rem;
     margin-bottom: .5rem;
@@ -118,14 +117,12 @@ form {
     width: 1em;
     height: 1em;
     margin-right: .5em;
-    background-color: silver;
+    background-color: #fff;
     text-indent: .15em;
     line-height: .5; }
   form input[type="checkbox"]:checked + label::before {
     content: '\2713';
-    background-color: yellowgreen; }
-  form input[type="checkbox"]:focus + label::before {
-    outline: #FF7A5A solid 3px; }
+    background-color: #ccc; }
   form input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0); }
@@ -148,6 +145,7 @@ form {
   padding: 1rem 0;
   background-color: #fff;
   border-bottom: .2rem solid #ccc;
+  margin: 0 0 1rem 0;
   font-size: 1rem; }
   @media screen and (min-width: 320px) {
     [role="navigation"] h1 {
@@ -232,26 +230,43 @@ form {
   color: gray; }
 
 .login-form {
-  background-color: #2c3e50;
+  background-color: yellowgreen;
   padding: 1rem;
   color: #fff;
   border-radius: .1rem;
   margin-bottom: 1rem;
   flex: 0 2 25%;
   border-bottom: .1rem solid #e0e0e0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27); }
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
+  transition: 1s; }
   .login-form a {
     font-size: .8rem;
-    text-align: center; }
-  .login-form span {
-    display: flex;
-    line-height: 1.45;
-    justify-content: space-between; }
-  .login-form span:last-of-type {
-    flex-direction: column-reverse; }
+    text-align: center;
+    padding: .5rem 0;
+    margin-bottom: 1rem; }
+    .login-form a:focus {
+      outline: #FF7A5A solid 3px; }
   .login-form > input:focus {
     outline: #FF7A5A solid 3px;
     border-radius: 2px; }
+  .login-form button {
+    background-color: #FF7A5A; }
+    .login-form button:focus {
+      outline: #2c3e50 solid 3px; }
+  .login-form input[type="checkbox"]:focus + label::before {
+    outline: #FF7A5A solid 3px; }
+  .login-form:invalid {
+    background: #FF7A5A; }
+    .login-form:invalid > input:focus {
+      outline: yellowgreen solid 3px; }
+    .login-form:invalid button {
+      background-color: #2c3e50; }
+      .login-form:invalid button:focus {
+        outline: yellowgreen solid 3px; }
+    .login-form:invalid a:focus {
+      outline: yellowgreen solid 3px; }
+    .login-form:invalid input[type="checkbox"]:focus + label::before {
+      outline: yellowgreen solid 3px; }
   @media only screen and (min-width: 50rem) {
     .login-form {
       margin-left: 1rem; } }
@@ -382,12 +397,14 @@ form {
   padding: 1rem;
   background-color: #fff;
   flex: 100%;
-  max-width: 30rem; }
-  .main-article img {
-    margin-bottom: 1rem;
+  max-width: 35rem; }
+  .main-article figure {
     height: 100vh;
     width: auto;
-    max-width: 100%; }
+    max-width: 100vw; }
+    .main-article figure img {
+      height: calc(100vh - 5rem);
+      width: auto; }
   .main-article footer {
     font-size: .75rem;
     text-align: right;
