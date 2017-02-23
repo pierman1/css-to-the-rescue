@@ -13,3 +13,7 @@ Resultaat: https://goo.gl/2tcais
 
 Resultaat: https://goo.gl/N8Tuy1
 
+####Week 3
+
+Resultaat: https://goo.gl/N8Tuy1
+
