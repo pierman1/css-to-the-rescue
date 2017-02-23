@@ -55,23 +55,25 @@
         </nav>
     </section>
     <section section="component-login">
-        <form class="login-form" action="/" method="post">
+        <form role="login" action="/" method="post">
 
             <label for="field-email">Email</label>
-            <input type="email" id="field-email" name="field-email" placeholder="example@gmail.com" autocomplete="email" required autofocus>
+            <input type="email" id="field-email" name="field-email" autocomplete="email" required autofocus>
 
             <label for="field-password">Password</label>
-            <input type="password" id="field-password" name="field-password" placeholder="•••••" required>
+            <input type="password" id="field-password" name="field-password" required>
 
-            <input type="checkbox" id="field-stay-logged-in" name="field-stay-logged-in" value="stay-logged-in">
-            <label for="field-stay-logged-in">Stay logged in</label>
-
+            <span>
+        <input type="checkbox" id="field-stay-logged-in" name="field-stay-logged-in" value="stay-logged-in">
+        <label for="field-stay-logged-in">Stay logged in</label>
+    </span>
 
             <a href="/">Forgot password</a>
+
             <button class="btn" type="submit">Login</button>
 
-
         </form>
+
     </section>
     <section section="component-rating">
         <div role="rating">
