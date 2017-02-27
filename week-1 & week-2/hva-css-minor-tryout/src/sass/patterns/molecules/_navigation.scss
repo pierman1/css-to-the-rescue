@@ -5,6 +5,10 @@
   a {
     color: #fff;
   }
+
+  button {
+    margin: 2rem 0 0 1rem;
+  }
 }
 
 [role="navigation"] {
@@ -19,11 +23,12 @@
 
 [role="navigation"] h1 {
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   background-color: #fff;
   border-bottom: .2rem solid #ccc;
   margin: 0 0 1rem 0;
-  @include fluid-type(1rem, 2rem);
+  font-size: 1rem;
+  //@include fluid-type(1rem, 2rem);
 }
 
 [role="navigation"] ul {
