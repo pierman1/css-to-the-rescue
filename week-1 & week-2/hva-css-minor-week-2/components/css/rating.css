@@ -6,7 +6,9 @@
     width: 50%;
     background-color: #2c3e50;
     padding: 1rem;
-    margin: 0 0 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
     border-radius: .1rem;
     border-bottom: .1rem solid #e0e0e0;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
@@ -17,6 +19,16 @@
     content: '← Rate!';
     position: absolute;
     right: -4rem;
+}
+
+@media only screen and (min-width: 50rem) {
+    .fieldset:after {
+        content: '↑ Rate!';
+        right: 0;
+        top: 4rem;
+        left: 0;
+        transform: translateX(calc(50% - 2rem));
+    }
 }
 
 .fieldset legend {

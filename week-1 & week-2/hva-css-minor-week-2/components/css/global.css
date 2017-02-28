@@ -89,3 +89,11 @@ header {
     color: #000;
     z-index: 1;
 }
+
+header h1 {
+    color: #FF7A5A;
+}
+
+:focus {
+    outline: #FF7A5A solid .2rem;
+}

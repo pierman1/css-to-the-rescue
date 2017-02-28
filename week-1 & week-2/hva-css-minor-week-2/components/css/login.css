@@ -4,10 +4,17 @@
     color: #fff;
     border-radius: .1rem;
     margin-bottom: 1rem;
-    flex: 0 2 25%;
     border-bottom: .1rem solid #e0e0e0;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
     transition: 1s;
+    width: 85%;
+    max-width: 20rem;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
 }
 
 .login-form a {
@@ -21,6 +28,20 @@
     outline: #FF7A5A solid 3px;
 }
 
+.login-form > a {
+    margin-bottom: 0;
+}
+
+.login-form > a svg {
+    width: 1rem;
+    float: right;
+    transition: .3s;
+}
+
+.login-form > a svg:hover {
+    transform: rotate(90deg);
+}
+
 .login-form > input:focus {
     outline: #FF7A5A solid 3px;
     border-radius: 2px;
@@ -28,10 +49,18 @@
 
 .login-form button {
     background-color: #FF7A5A;
+    color: #fff;
+    opacity: 1;
+    transition: .3s;
+    border-bottom: .15rem solid #ccc;
 }
 
 .login-form button:focus {
-    outline: #2c3e50 solid 3px;
+    outline: #FF7A5A dotted 3px;
+}
+
+.login-form button:hover {
+    border-bottom: .15rem solid #a50000;
 }
 
 .login-form input[type="checkbox"]:focus + label::before {
@@ -48,10 +77,15 @@
 
 .login-form:invalid button {
     background-color: #2c3e50;
+    opacity: .5;
 }
 
 .login-form:invalid button:focus {
-    outline: yellowgreen solid 3px;
+    outline: yellowgreen dotted 3px;
+}
+
+.login-form:invalid button:hover {
+    background-color: #000;
 }
 
 .login-form:invalid a:focus {
@@ -66,4 +100,24 @@
     .login-form {
         margin-left: 1rem;
     }
+}
+
+.login-blur {
+    background-color: rgba(44, 62, 80, 0.8);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .3s;
+}
+
+#login-modal {
+    display: none;
+}
+
+#login-modal:target {
+    display: flex;
 }
