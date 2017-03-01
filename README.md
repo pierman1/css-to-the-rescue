@@ -2,4 +2,4 @@
 
 Examples make use of Emoji from: http://emojione.com
 
-Demo: http://goo.gl/Vagrb8
+Demo: http://goo.gl/68cgbj

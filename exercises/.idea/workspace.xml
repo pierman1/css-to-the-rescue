@@ -75,16 +75,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/form.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="chat.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/chat.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,7 +90,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="30">
-                <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -113,10 +103,20 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="90">
-                <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -360,12 +360,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487845217072</updated>
       <workItem from="1487845218341" duration="20518000" />
-      <workItem from="1488189836080" duration="51478000" />
+      <workItem from="1488189836080" duration="51627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71996000" />
+    <option name="totallyTimeSpent" value="72145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="322" y="24" width="1116" height="827" extended-state="0" />
@@ -652,72 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <marker date="1488406973000" expanded="true" signature="31:14983" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="38:354" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="92:206" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="361:14975" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="374:1307" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="426:1293" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="451:509" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="527:1167" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="638:1041" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="781:1018" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1319:11537" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1370:1881" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1484:1866" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1505:1572" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1593:1706" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1727:1777" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1798:1848" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="1936:3768" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="2003:2541" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="2593:3145" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="3197:3753" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="3818:5606" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="3882:5591" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="3911:4892" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="4057:4871" ph="..." />
-            <marker date="1488406973000" expanded="false" signature="4120:4162" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="4223:4840" ph="..." />
-            <marker date="1488406973000" expanded="false" signature="4266:4302" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="5633:7063" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="5757:6791" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="5778:6102" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="5803:5857" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="5887:6079" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6123:6400" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6148:6219" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6249:6377" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6421:6773" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6446:6519" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6549:6750" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="6836:7048" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="7102:8069" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="7169:7596" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="7621:8050" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="7641:7850" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="7875:8024" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="8100:11525" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="8232:9387" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="9483:10001" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="10097:10531" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="10628:11510" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="11549:14967" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="11612:12134" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="12182:12718" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="12766:13306" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="13369:13891" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="13939:14475" ph="..." />
-            <marker date="1488406973000" expanded="true" signature="14523:14954" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-tryout/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -864,10 +798,18 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
-            <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +817,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
-            <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
