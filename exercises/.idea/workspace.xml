@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navigation.css" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/navigation.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="-663">
               <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -65,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step-indicator.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="step-indicator.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -153,8 +153,8 @@
       <find>navigation</find>
       <find>:f</find>
       <find>focus</find>
-      <find>navi</find>
       <find>height</find>
+      <find>navi</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -198,9 +198,9 @@
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-tryout/build/css/styles.css" />
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/README.md" />
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/README.md" />
-        <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/navigation.css" />
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/containers.css" />
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css" />
+        <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/navigation.css" />
       </list>
     </option>
   </component>
@@ -363,12 +363,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487845217072</updated>
       <workItem from="1487845218341" duration="20518000" />
-      <workItem from="1488189836080" duration="52181000" />
+      <workItem from="1488189836080" duration="52550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72699000" />
+    <option name="totallyTimeSpent" value="73068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="322" y="24" width="1116" height="827" extended-state="0" />
@@ -795,6 +795,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/containers.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -806,23 +822,7 @@
     <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
