@@ -2,14 +2,24 @@
     padding: 1rem;
     background-color: #FF7A5A;
     color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     transistion: 0.3s;
-    flex: 0 1 100%;
+    -webkit-box-flex: 80%;
+    -ms-flex: 80%;
+    flex: 80%;
     border-bottom: .1rem solid #e0e0e0;
+    margin-bottom: 1rem;
 }
 
 [role="status"] h1 {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
     flex: 100%;
     margin-bottom: 1rem;
     color: black;
@@ -19,6 +29,7 @@
 
 [role="status"] progress {
     -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
     background-color: #F9FAFC;
     width: 100%;
@@ -38,8 +49,6 @@
     background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
     background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
     z-index: 0;
-    -webkit-background-size: 50px 50px;
-    -moz-background-size: 50px 50px;
     background-size: 50px 50px;
     -webkit-animation: move 2s linear infinite;
     -moz-animation: move 2s linear infinite;
@@ -64,8 +73,12 @@
 }
 
 [role="status"] ol {
-    margin-top: 1rem;
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -74,17 +87,14 @@
     font-size: .8rem;
     list-style-type: decimal;
     position: relative;
+    width: inherit;
 }
 
-[role="status"] ol li:after {
+[role="status"] ol li:before {
     content: '→';
     margin-left: 0rem;
-}
-
-@media only screen and (min-width: 30rem) {
-    [role="status"] ol li:after {
-        margin-left: 2rem;
-    }
+    position: absolute;
+    top: -1rem;
 }
 
 [role="status"] ol li:last-of-type:after {
@@ -95,7 +105,7 @@
     color: #fff;
 }
 
-[role="status"] ol, [role="status"] progress {
+[role="status"] progress {
     width: 90%;
     margin: 1rem auto 1rem auto;
 }
@@ -105,12 +115,17 @@
     font-weight: 800;
 }
 
-@media only screen and (min-width: 70rem) {
-    [role="status"] {
-        margin-bottom: 1rem;
-    }
-}
-
 [role="status"] :focus {
     outline: yellowgreen solid .2rem;
+}
+
+@media only screen and (min-width: 45rem) {
+    [role="status"] ol {
+        margin: 1rem auto 1rem auto;
+        width: 90%;
+    }
+
+    [role="status"] ol li {
+        width: 100%;
+    }
 }

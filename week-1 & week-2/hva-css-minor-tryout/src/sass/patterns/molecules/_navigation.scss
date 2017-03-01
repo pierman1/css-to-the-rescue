@@ -1,13 +1,29 @@
-// Navigation based on Nick's navigation
 [role="navigation"] {
   overflow: hidden;
-  
+
   a {
     color: #fff;
   }
 
-  button {
-    margin: 2rem 0 0 1rem;
+  > a {
+    &:last-of-type {
+      background-color: #FF7A5A;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      max-width: 6rem;
+      text-align: center;
+      transition: .3s;
+      
+      &:hover {
+        background-color: yellowgreen;
+        color: #fff;
+      }
+
+      &:focus {
+        outline: yellowgreen solid 3px;
+        background-color: yellowgreen;
+      }
+    }
   }
 }
 
@@ -28,18 +44,27 @@
   border-bottom: .2rem solid #ccc;
   margin: 0 0 1rem 0;
   font-size: 1rem;
-  //@include fluid-type(1rem, 2rem);
 }
 
 [role="navigation"] ul {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  padding-left: 1rem;
+
+  a,
+  label{
+
+    color: #fff;
+    padding-left: 1rem;
+
+    cursor: pointer;
+  }
 }
 
 [role="navigation"] ul ul {
   margin-left: 3vw;
+  height: 0px;
+  margin: .5rem 0;
 }
 
 [role="navigation"] li {
@@ -57,65 +82,64 @@
   overflow: hidden;
 }
 
-@media only screen and (min-width : 38rem) {
-
   [role="navigation"] li {
-    max-height: 1.5em;
-    margin-bottom: 1rem;
+    padding: .5rem 0;
   }
-
-  //[role="navigation"] h1 {
-  //  background-color: inherit;
-  //}
-
-  //[role="navigation"] ul {
-  //  position: fixed;
-  //}
 
   [role="navigation"] ul ul {
-    transition: transform .12s ease-in-out;
-    transform: scale(0);
-    transform-origin: left top;
-    flex-flow: column nowrap;
-    margin-left: 1.5vw;
-    display: none;
+    transition: transform .3st;
+    transform-origin: center top;
+    transform: translateY(-2rem);
     border-bottom: .2rem solid #ccc;
-  }
+    border-top: .2rem solid #ccc;
+    opacity: 0;
 
-  [role="navigation"] li:hover ul,
-  [role="navigation"] :checked ~ ul {
-    transform: scale(1);
+    position: absolute;
+    z-index: -1000;
+
     background-color: #fff;
-    padding: .5rem;
-    width: 100%;
-    margin: 0px;
-    display: block;
+
   }
-}
 
-[role="navigation"] li li {
-  flex: 0;
-  margin-right: 3vw;
-}
+  [role="navigation"] li:hover ul {
 
-//[role="navigation"] label:after {
-//  content: '';
-//  background-image: url(../images/down-arrow.svg);
-//  background-repeat: no-repeat;
-//  background-size: 50%;
-//  background-position-y: 50%;
-//  padding-left: .5em;
-//  width: 2rem;
-//  height: 2rem;
-//  position: absolute;
-//  margin-left: 1rem;
+  }
+
+  //[role="navigation"] :focus ~ ul,
+  [role="navigation"] :checked ~ ul {
+    transform: translate(0);
+    padding: 0 .5rem;
+    width: 100%;
+    display: block;
+    opacity: 1;
+
+    height: initial;
+
+    position: inherit;
+    z-index: 0;
+
+    //li {
+    //  heigth: 1rem;
+    //}
+  }
+
+//[role="navigation"] li li {
+//  margin-right: 3vw;
 //}
+
+[role="navigation"] label:after {
+  content: '+';
+  position: absolute;
+  margin-left: 1rem;
+  transition: .3s;
+  transform-origin: 50% 50%;
+  position: absolute;
+}
 
 [role="navigation"] a,
 [role="navigation"] label {
   display: block;
   line-height: 2;
-  font-weight: 500;
   text-decoration: none;
 }
 
@@ -131,6 +155,13 @@
   outline-color: #FF7A5A;
   outline-style: auto;
   outline-width: 5px;
+  outline: 2px solid #FF7A5A;
+}
+
+[role="navigation"] [type="checkbox"]:checked ~ label {
+  &:after {
+    transform: rotate(45deg);
+  }
 }
 
 [role="navigation"] a[aria-label~='current'] {

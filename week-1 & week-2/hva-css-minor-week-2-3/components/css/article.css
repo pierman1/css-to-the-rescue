@@ -1,0 +1,153 @@
+.main-article {
+    padding: 1rem;
+    background-color: #fff;
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 35rem;
+}
+
+.main-article:target {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.main-article:target article {
+    margin: 0 auto;
+}
+
+.main-article img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90vh;
+    margin-bottom: 1rem;
+}
+
+.main-article footer {
+    font-size: .75rem;
+    text-align: right;
+    margin-top: 1em;
+}
+
+.container-picture-with-subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 0 1rem 0;
+}
+
+@media only screen and (min-width: 50rem) {
+    .container-picture-with-subtitle {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .container-picture-with-subtitle article {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-right: 1rem;
+    }
+
+    .container-picture-with-subtitle article img {
+        width: 100%;
+    }
+
+    .container-picture-with-subtitle article:first-of-type {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+    }
+
+    .container-picture-with-subtitle article:last-of-type {
+        margin: 0;
+    }
+}
+
+.picture-with-subtitle {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #e0e0e0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
+    position: relative;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.picture-with-subtitle h1 {
+    line-height: 1.5;
+    margin: none;
+}
+
+.picture-with-subtitle h1 a {
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.picture-with-subtitle img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90vh;
+    margin-bottom: 1rem;
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.8" /><feFuncG type="linear" slope="0.8" /><feFuncB type="linear" slope="0.8" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: brightness(0.8);
+    filter: brightness(0.8);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.picture-with-subtitle p {
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.picture-with-subtitle:first-of-type p {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.picture-with-subtitle:first-of-type img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+.picture-with-subtitle:not(:first-of-type) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+.picture-with-subtitle:hover a {
+    color: #FF7A5A;
+}
+
+.picture-with-subtitle:hover p {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.picture-with-subtitle:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}

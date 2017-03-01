@@ -1,6 +1,10 @@
-/* Molecules */
 form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -12,7 +16,6 @@ form label {
 }
 
 form input {
-    border-radius: 2px;
     border: none;
     padding: .5rem;
     margin-bottom: .5rem;
@@ -24,25 +27,21 @@ form textarea {
     border-radius: 2px;
 }
 
-form input[type="checkbox"] + label::before {
+form input[type="checkbox"] + label:before {
     content: '\a0';
     display: inline-block;
     vertical-align: .2em;
     width: 1em;
     height: 1em;
     margin-right: .5em;
-    background-color: silver;
+    background-color: #fff;
     text-indent: .15em;
     line-height: .5;
 }
 
-form input[type="checkbox"]:checked + label::before {
+form input[type="checkbox"]:checked + label:before {
     content: '\2713';
-    background-color: yellowgreen;
-}
-
-form input[type="checkbox"]:focus + label::before {
-    outline: #FF7A5A solid 3px;
+    background-color: #ccc;
 }
 
 form input[type="checkbox"] {

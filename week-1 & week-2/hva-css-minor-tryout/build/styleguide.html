@@ -14,9 +14,9 @@
         <div class="container-left">
             <header>
                 <nav role="navigation" class="primary-nav">
-                    <a href="#">
+                    <!--<a href="#">-->
                         <h1>Main navigation</h1>
-                    </a>
+                    <!--</a>-->
 
                     <ul>
                         <li><a href="#main-content" aria-label="Home, current page">Home</a></li>
@@ -34,8 +34,8 @@
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
-                    <a href="#login-modal"><button class="button-login">Login</button></a>
-                    <div class="loader">Loading…</div>
+                    <a href="#login-modal" class="btn"><div>Login</div></a>
+                    <!--<div class="loader">Loading…</div>-->
                 </nav>
             </header>
         </div>
@@ -61,26 +61,26 @@
             </nav>
 
             <div class="container-picture-with-subtitle">
-                <article class="picture-with-subtitle">
-                    <h1><a href="/">HTML5 accessibility, are block links hurting accessibility?</a></h1>
+                <article id="article-1" class="picture-with-subtitle">
+                    <h1><a href="#article">Flex-direction</a></h1>
 
-                    <img src="https://vasilis.nl/voto/fotos/klein/161001180558-de-boot-gemist-150.jpg" alt="A colorful crayon drawing on the hood of a car." />
+                    <img src="https://css-tricks.com/wp-content/uploads/2013/04/flex-direction2.svg" alt="A colorful crayon drawing on the hood of a car." />
+
+                    <p>Een bestuurder van het kaliber Jacques Tichelaar hoort te weten dat hij verre moet blijven van kwesties waarbij een familielid betrokken is. Hij was bovendien gewaarschuwd.' Dat zegt Hans van den Heuvel, emeritus hoogleraar integriteit aan de Vrije Universiteit Amsterdam.</p>
+                </article>
+                <article class="picture-with-subtitle">
+                    <h1><a href="#article">Flex-wrap</a></h1>
+
+                    <img src="https://css-tricks.com/wp-content/uploads/2014/05/flex-wrap.svg" alt="A colorful crayon drawing on the hood of a car." />
 
                     <p>It is conforming in HTML5 for links to include block level elements such as headings and paragraphs, this was forbidden in previous versions of HTML. A recent article by @feather concludes that the inclusion of block level elements inside a link causes some Assistive Technology (AT) to misbehave.</p>
                 </article>
                 <article class="picture-with-subtitle">
-                    <h1><a href="/">HTML5 accessibility, are block links hurting accessibility?</a></h1>
+                    <h1><a href="#article">Justify-content</a></h1>
 
-                    <img src="https://vasilis.nl/voto/fotos/klein/161001180558-de-boot-gemist-150.jpg" alt="A colorful crayon drawing on the hood of a car." />
+                    <img src="https://css-tricks.com/wp-content/uploads/2013/04/justify-content.svg" alt="A colorful crayon drawing on the hood of a car." />
 
-                    <p>It is conforming in HTML5 for links to include block level elements such as headings and paragraphs, this was forbidden in previous versions of HTML. A recent article by @feather concludes that the inclusion of block level elements inside a link causes some Assistive Technology (AT) to misbehave.</p>
-                </article>
-                <article class="picture-with-subtitle">
-                    <h1><a href="/">HTML5 accessibility, are block links hurting accessibility?</a></h1>
-
-                    <img src="https://vasilis.nl/voto/fotos/klein/161001180558-de-boot-gemist-150.jpg" alt="A colorful crayon drawing on the hood of a car." />
-
-                    <p>It is conforming in HTML5 for links to include block level elements such as headings and paragraphs, this was forbidden in previous versions of HTML. A recent article by @feather concludes that the inclusion of block level elements inside a link causes some Assistive Technology (AT) to misbehave.</p>
+                    <p>This defines the alignment along the main axis. It helps distribute extra free space left over when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.</p>
                 </article>
             </div>
 
@@ -165,8 +165,8 @@
                 </form>
             </div>
 
-
                 <article class="main-article">
+
                     <h1>This picture has a title</h1>
                     <figure>
                         <!-- Portrait -->
@@ -184,6 +184,8 @@
                         </figcaption>
                     </figure>
                 </article>
+
+
             <div class="fieldset">
                 <legend>Rating</legend>
                 <input type="radio" name="rating" id="rating-0">
@@ -209,9 +211,32 @@
                 </label>
             </div>
 
-
-
             </div>
+
+        <aside>
+            <article class="picture-with-subtitle">
+                <h1><a href="#article">Hoogleraar integriteit over Tichelaar: 'Nepotisme, dat is wat het is'</a></h1>
+
+                <img src="https://vasilis.nl/voto/fotos/klein/161001180558-de-boot-gemist-150.jpg" alt="A colorful crayon drawing on the hood of a car." />
+
+                <p>Een bestuurder van het kaliber Jacques Tichelaar hoort te weten dat hij verre moet blijven van kwesties waarbij een familielid betrokken is. Hij was bovendien gewaarschuwd.' Dat zegt Hans van den Heuvel, emeritus hoogleraar integriteit aan de Vrije Universiteit Amsterdam.</p>
+            </article>
+            <article class="picture-with-subtitle">
+                <h1><a href="#article">HTML5 accessibility, are block links hurting accessibility?</a></h1>
+
+                <img src="https://vasilis.nl/voto/fotos/klein/161001180558-de-boot-gemist-150.jpg" alt="A colorful crayon drawing on the hood of a car." />
+
+                <p>It is conforming in HTML5 for links to include block level elements such as headings and paragraphs, this was forbidden in previous versions of HTML. A recent article by @feather concludes that the inclusion of block level elements inside a link causes some Assistive Technology (AT) to misbehave.</p>
+            </article>
+            <article class="picture-with-subtitle">
+                <h1><a href="#article">HTML5 accessibility, are block links hurting accessibility?</a></h1>
+
+                <img src="https://vasilis.nl/voto/fotos/klein/161001180558-de-boot-gemist-150.jpg" alt="A colorful crayon drawing on the hood of a car." />
+
+                <p>It is conforming in HTML5 for links to include block level elements such as headings and paragraphs, this was forbidden in previous versions of HTML. A recent article by @feather concludes that the inclusion of block level elements inside a link causes some Assistive Technology (AT) to misbehave.</p>
+            </article>
+        </aside>
+    </div>
 
 </body>
 </html>

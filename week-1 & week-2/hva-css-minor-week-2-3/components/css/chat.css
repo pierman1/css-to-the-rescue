@@ -4,6 +4,7 @@
     border-bottom: .1rem solid #e0e0e0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
     width: 80%;
+    max-width: 20rem;
     cursor: pointer;
     position: fixed;
     bottom: 0;
@@ -51,6 +52,7 @@
 
 .chat form label {
     position: absolute;
+    padding: .5rem 1rem;
 }
 
 .chat form textarea:focus + label {
@@ -61,10 +63,12 @@
 .chat textarea {
     border-top: 1px solid #cecece;
     font-size: 1rem;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
 }
 
 .chat textarea:focus {
-    outline: #FF7A5A solid 3px;
+    outline: yellowgreen solid 3px;
 }
 
 .chat button {
@@ -82,8 +86,16 @@
     overflow: hidden;
 }
 
+.chat input[type=checkbox]:focus + label {
+    outline: 2px solid yellowgreen;
+}
+
+.chat:focus {
+    outline: 2px solid yellowgreen;
+}
+
 .chat > label {
-    padding: .5rem;
+    padding: 0 .5rem;
     color: #fff;
     line-height: 1.5;
 }
@@ -95,6 +107,7 @@
     height: 1rem;
     position: absolute;
     right: 0;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -110,11 +123,13 @@
 }
 
 .chat :checked ~ form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .chat :focus {
-    outline-color: #FF7A5A;
+    outline-color: yellowgreen;
 }
 
 @media only screen and (min-width: 50rem) {

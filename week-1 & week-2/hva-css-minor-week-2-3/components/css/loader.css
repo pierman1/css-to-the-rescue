@@ -1,3 +1,9 @@
+@-webkit-keyframes loader {
+    to {
+        background-position: -50em 0;
+    }
+}
+
 @keyframes loader {
     to {
         background-position: -50em 0;
@@ -11,6 +17,8 @@
     text-indent: 999px;
     overflow: hidden;
     background: url(http://dabblet.com/img/loader.png) 0 0;
+    -webkit-animation: loader 0.5s infinite steps(8);
     animation: loader 0.5s infinite steps(8);
+    -webkit-transform: scale(0.2);
     transform: scale(0.2);
 }

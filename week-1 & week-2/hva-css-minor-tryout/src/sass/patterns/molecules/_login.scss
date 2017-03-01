@@ -14,18 +14,25 @@
   z-index: 2;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
 
   transition: .3s;
 
+  overflow: visible;
+
   a {
     font-size: .8rem;
-    text-align: center;
-    padding: .5rem 0;
     margin-bottom: 1rem;
+    padding: .5rem 0;
+    text-align: center;
 
     &:focus {
-      outline: #FF7A5A solid 3px;
+
+      outline: none;
+
+      svg {
+        outline: #FF7A5A solid 3px;
+      }
     }
   }
 
@@ -33,14 +40,25 @@
 
     margin-bottom: 0;
 
+    &:first-of-type {
+      margin-bottom: 0;
+      text-decoration: none;
+
+      &:before {
+        content: 'Druk op inloggen!';
+      }
+
+    }
+
     svg {
       width: 1rem;
       float: right;
-      transition: .3s;
 
-      &:hover {
-        transform: rotate(90deg);
-      }
+      //&:hover {
+      //  transform: rotate(90deg);
+      //}
+
+
     }
   }
 
@@ -48,6 +66,8 @@
     outline: #FF7A5A solid 3px;
     border-radius: 2px;
   }
+
+
 
   button {
     background-color: #FF7A5A;
@@ -68,6 +88,10 @@
   input[type="checkbox"]:focus + label::before {
     outline: #FF7A5A solid 3px;
   }
+
+  //input[type="checkbox"]:checked {
+  //  background-color: #fff;
+  //}
 
   &:invalid {
     background: #FF7A5A;
@@ -90,8 +114,19 @@
     }
 
     a {
+
+      svg {
+        opacity: .5;
+      }
+
       &:focus {
-        outline: yellowgreen solid 3px;
+        svg {
+          outline: yellowgreen solid 3px;
+        }
+      }
+
+      &:first-of-type:before {
+        content: 'Vul uw gegevens in om in te loggen';
       }
     }
 
@@ -106,7 +141,9 @@
 }
 
 .login-blur {
-  background-color: rgba(44,62,80, 0.8);
+  /// /background-color: rgba(44,62,80, 0.8);
+  background-image: repeating-linear-gradient(-45deg, rgba(44,62,80, 0.88), rgba(44,62,80, 0.88) 10px, rgba(44,62,80, 0.9) 10px, rgba(44,62,80, 0.9) 20px);
+
   width:100vw;
   height:100vh;
   position: fixed;
@@ -123,6 +160,12 @@
 
 #login-modal {
   display: none;
+  transition: .3s;
+
+  .login-form {
+    transform: translate(-50%, -50%);
+    transition: .3s;
+  }
 }
 
 #login-modal:target {

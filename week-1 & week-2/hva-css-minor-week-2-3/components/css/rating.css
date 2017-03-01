@@ -1,18 +1,18 @@
 .fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
-    width: 50%;
     background-color: #2c3e50;
     padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin: 1rem 0 1rem 1rem;
     border-radius: .1rem;
     border-bottom: .1rem solid #e0e0e0;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
     position: relative;
+    width: 50%;
+    max-width: 15rem;
 }
 
 .fieldset:after {
@@ -25,13 +25,14 @@
     .fieldset:after {
         content: '↑ Rate!';
         right: 0;
-        top: 4rem;
+        top: 4.5rem;
         left: 0;
-        transform: translateX(calc(50% - 2rem));
     }
 }
 
 .fieldset legend {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
     flex: 100%;
     text-align: center;
     display: none;
@@ -41,6 +42,8 @@
     width: 10%;
     cursor: pointer;
     opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -50,21 +53,24 @@
 }
 
 .fieldset input:checked + label {
+    -webkit-transform: scale(1.5);
     transform: scale(1.5);
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .fieldset input:hover + label {
+    -webkit-transform: scale(1.5);
     transform: scale(1.5);
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .fieldset input {
-    display: none;
+    position: absolute;
+    left: -999999px;
 }
 
-@media only screen and (min-width: 50rem) {
-    .fieldset {
-        flex: 0 20%;
-    }
+.fieldset input:focus + label {
+    outline: 3px solid yellowgreen;
 }

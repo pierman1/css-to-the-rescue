@@ -1,10 +1,10 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:300");
 html, body, div, span
 h1, h2, h3, h4, h5, h6, p,
 a, img, strong, ol, ul, li,
 fieldset, form, label, legend, caption,
-article, figure, figcaption, footer, header,
+article,
+figure, figcaption, footer, header,
 menu, nav, section {
     margin: 0;
     padding: 0;
@@ -22,7 +22,6 @@ footer, header, menu, nav, section {
 body {
     line-height: 1;
     background-color: #f4f6f0;
-    font-family: "Open Sans", sans-serif;
 }
 
 ul {
@@ -30,8 +29,7 @@ ul {
 }
 
 a {
-    color: #000;
-}
+    color: #000; }
 
 ol li {
     list-style: none;
@@ -43,12 +41,17 @@ ol li a {
 }
 
 button {
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
 button:hover {
     color: #fff;
     background-color: #000;
+}
+
+h1 {
+    margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,23 +80,29 @@ legend {
 }
 
 button {
-    background-color: transparent;
     border: none;
-    background-color: #4ecdc4;
+    background-color: #FF7A5A;
     padding: 0.875rem 1rem;
     cursor: pointer;
 }
 
-header {
-    height: 100%;
-    color: #000;
-    z-index: 1;
+@-webkit-keyframes loader {
+    to {
+        background-position: -50em 0;
+    }
 }
 
-header h1 {
-    color: #FF7A5A;
+@keyframes loader {
+    to {
+        background-position: -50em 0;
+    }
 }
 
-:focus {
-    outline: #FF7A5A solid .2rem;
+body {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    padding: 1rem;
 }

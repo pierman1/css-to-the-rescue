@@ -26,7 +26,6 @@
       right: 0;
       top: 4.5rem;
       left: 0;
-      transform: translateX(calc(50% - 2rem));
     }
   }
 
@@ -59,7 +58,14 @@
   }
 
   input {
-    display: none;
+    position: absolute;
+    left: -999999px;
+
+    &:focus {
+      + label {
+        outline: 3px solid yellowgreen;
+      }
+    }
   }
 
   @media only screen and (min-width: 50rem) {
