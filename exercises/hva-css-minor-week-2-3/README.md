@@ -4,4 +4,4 @@ Example makes use of Emoji from: http://emojione.com
 
 ##Github pages
 
-Demo: http://goo.gl/Vagrb8
+Demo: http://goo.gl/68cgbj
