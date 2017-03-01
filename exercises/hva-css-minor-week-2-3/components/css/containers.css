@@ -6,6 +6,7 @@
     }
 
     header {
+        height:100%;
         min-width: 15%;
         -webkit-box-flex:1;
         -ms-flex:1;
