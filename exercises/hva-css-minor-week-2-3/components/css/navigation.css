@@ -1,5 +1,9 @@
 [role="navigation"] {
     overflow: hidden;
+    background-color: #2c3e50;
+    height: 100%;
+    min-height: 100vh;
+    padding-bottom: 1rem;
 }
 
 [role="navigation"] a {
@@ -24,12 +28,6 @@
 [role="navigation"] > a:last-of-type:focus {
     outline: yellowgreen solid 3px;
     background-color: yellowgreen;
-}
-
-[role="navigation"] {
-    background-color: #2c3e50;
-    height: 100%;
-    padding-bottom: 1rem;
 }
 
 [role="navigation"] :focus {
