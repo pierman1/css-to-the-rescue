@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step-indicator.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="step-indicator.css" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="113" column="10" lean-forward="false" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+            <state relative-caret-position="192">
+              <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -85,12 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -198,6 +198,7 @@
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-tryout/build/css/styles.css" />
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/README.md" />
         <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/README.md" />
+        <option value="$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css" />
       </list>
     </option>
   </component>
@@ -360,12 +361,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487845217072</updated>
       <workItem from="1487845218341" duration="20518000" />
-      <workItem from="1488189836080" duration="51627000" />
+      <workItem from="1488189836080" duration="51720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72145000" />
+    <option name="totallyTimeSpent" value="72238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="322" y="24" width="1116" height="827" extended-state="0" />
@@ -778,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="113" column="10" lean-forward="false" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/chat.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -816,11 +809,19 @@
     <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Minor/css-to-the-rescue/exercises/hva-css-minor-week-2-3/components/css/step-indicator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
