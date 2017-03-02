@@ -1,6 +1,7 @@
 aside {
     width: 100%;
     display: none;
+    padding-left: 1rem;
 }
 
 aside article {
